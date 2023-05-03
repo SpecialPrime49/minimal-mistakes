@@ -102,8 +102,8 @@ analytics:
 # Site Author
 author:
   name             : "Andrew Kramer"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  avatar           : "C:\Users\Andrew\Documents\githubIcon.png"
+  bio              : #"I am an **amazing** person."
   #location         : "Somewhere"
   email            :
   links:
