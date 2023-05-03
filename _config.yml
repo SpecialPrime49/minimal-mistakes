@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Andrew's Projects - Home"
+title                    : "Home"
 title_separator          : "-"
 subtitle                 : "Data Science & Automation"
 name                     : "Andrew Kramer"
@@ -25,7 +25,7 @@ url                      : # the base hostname & protocol for your site e.g. "ht
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/person_icon.png"
 masthead_title           : "Andrew's Project Porfolio"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Andrew Kramer"
-  avatar           : #"C:\Users\Andrew\Documents\githubIcon.png"
+  avatar           : "https://github.com/StlCondor/StlCondor.github.io/blob/02645d9d11e7f51c785f257d8d6fa336789d1b4d/assets/images/githubIcon.png"
   bio              : #"I am an **amazing** person."
   #location         : "Somewhere"
   email            :
