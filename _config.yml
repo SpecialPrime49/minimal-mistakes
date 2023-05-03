@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Andrew Kramer"
-  avatar           : "https://github.com/StlCondor/StlCondor.github.io/blob/02645d9d11e7f51c785f257d8d6fa336789d1b4d/assets/images/githubIcon.png"
+  avatar           : ""assets/images/personal_icon.png"
   bio              : #"I am an **amazing** person."
   #location         : "Somewhere"
   email            :
