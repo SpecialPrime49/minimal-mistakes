@@ -5,8 +5,7 @@ categories:
   - Python
   - Power BI
 last_modified_at: 2023-05-05 T08:06:00-05:00
-header:
-    image: "assets/images/Python_pbi_load.png"
+image: "assets/images/Python_pbi_load.png"
 ---
 
 
