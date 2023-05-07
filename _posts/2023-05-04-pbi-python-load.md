@@ -17,7 +17,7 @@ import pandas as pd
 import datetime as dt
 
 #Specify CSV file location
-filePath="C:\\Users\\Andrew\\Documents\\Code\\Other\\Test CSVs\\"
+filePath="<directory>"
 
 #Include all files in List
 fileList=os.listdir(filePath)
