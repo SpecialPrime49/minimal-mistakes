@@ -156,9 +156,10 @@ pre {
   font-family: $monospace;
 }
 
-pre {
-  overflow-x: auto; /* add scrollbars to wide code blocks*/
-}
+//Disabling code block wrapping to prevent horizontal scrolling
+// pre {
+//   overflow-x: auto; /* add scrollbars to wide code blocks*/
+// }
 
 /* horizontal rule */
 
