@@ -157,7 +157,7 @@ pre {
 }
 
 pre {
-  overflow-wrap: break-word; /* add scrollbars to wide code blocks*/
+  white-space: pre-wrap; /* add scrollbars to wide code blocks*/
 }
 
 
