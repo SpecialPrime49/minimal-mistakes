@@ -1,5 +1,53 @@
 I will keep this post updated with my solutions to daily challenges shared from [The Daily Coding Problem](https://www.dailycodingproblem.com/). 
 
+## Problem - September 17, 2023:
+```plaintext
+Design and implement a HitCounter class that keeps track of requests (or hits). It should support the following operations:
+
+record(timestamp): records a hit that happened at timestamp
+total(): returns the total number of hits recorded
+range(lower, upper): returns the number of hits that occurred between timestamps lower and upper (inclusive)
+```
+Thought Process:
+1. Class should contain a function for each requirement (record, compute total, compute range)
+2. Use datetime module for timestamped data points
+
+```python
+from datetime import datetime, timedelta
+
+class HitCounter:
+
+    def __init__(self):
+        self.recordedHits={}
+
+    def record(self, n):
+        hitTime=str(datetime.now())
+        self.recordedHits[str(n)+'_'+str(hitTime)]=hitTime
+        return self.recordedHits
+    def total(self):
+        count=len(self.recordedHits)
+        return count
+    def hitRange(self):
+        if not self.recordedHits:
+            return "No hits"
+        return str(min(self.recordedHits.values())) + ' - ' + str(max(self.recordedHits.values()))
+
+
+#Allow for user to log hit times by entering an integer
+duration=int(input('Enter duration (seconds) for session time: '))
+
+startTime=datetime.now()
+endTime=startTime + timedelta(0,duration)
+
+#Allow for a 'session' of recorded events to pass to the HitCounter class 
+session=HitCounter()
+while datetime.now() < endTime:
+    recordEvent=int(input())
+    session.record(recordEvent)
+    sessionTotal=session.total()
+    sessionRange=session.hitRange()
+    print('Total hits: {0} | Hit Range: {1}'.format(sessionTotal,sessionRange))
+```
 ## Problem - May 10, 2023: 
 
 ```plaintext
