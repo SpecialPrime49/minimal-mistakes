@@ -64,4 +64,4 @@ for i in matched_fileList:
     connection.commit()
     df.to_sql(str(matched_fileList[fileNumber]).replace(fileType,''),connection_string_Alchemy,if_exists='append',index=False)
     fileNumber+=1
-    ```
+```
