@@ -18,6 +18,7 @@ CREATE TABLE transactions (
   "transaction_time" nvarchar(26),
   "transaction_amount" FLOAT
 );
+```
 
 <details>
 -- Insert:
@@ -139,6 +140,8 @@ VALUES
   ('2021-01-02 00:09:43.000000', '49.00'),
   ('2021-01-08 00:49:22.000000', '31.61');
 </details>
+
+```sql
 --Confirm load
 select * from transactions order by transaction_time
 
@@ -161,6 +164,5 @@ group by jan_day, daily_sales
 
 --SOLUTION: Query tmp_tbl filtering for only the avg from Jan 31
 select * from #temp_tbl where jan_day =31
-
 
 ```
