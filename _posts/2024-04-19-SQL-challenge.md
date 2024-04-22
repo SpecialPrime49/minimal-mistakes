@@ -23,6 +23,7 @@ CREATE TABLE transactions (
 -- Insert:
 INSERT INTO transactions
   ("transaction_time", "transaction_amount")
+<details>
 VALUES
   ('2021-01-16 00:05:54.000000', '25.05'),
   ('2021-01-07 20:53:04.000000', '124.00'),
@@ -138,7 +139,7 @@ VALUES
   ('2021-01-15 20:55:58.000000', '47.72'),
   ('2021-01-02 00:09:43.000000', '49.00'),
   ('2021-01-08 00:49:22.000000', '31.61');
-
+</details>
 --Confirm load
 select * from transactions order by transaction_time
 
