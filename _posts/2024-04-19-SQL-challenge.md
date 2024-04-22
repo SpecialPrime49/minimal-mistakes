@@ -1,6 +1,6 @@
 ## SQL Challenge Question: Moving Average
 
-Using the [data provided](https://www.db-fiddle.com/f/fufVxMKne1xMNHCbFoANMo/0) I determined the three day moving average for  January 1, 2021 to be 
+Using the [data provided](https://www.db-fiddle.com/f/fufVxMKne1xMNHCbFoANMo/0) I determined the three day moving average for  January 31, 2021 to be 
 
 ### $ 682.15 
 
