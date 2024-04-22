@@ -19,11 +19,10 @@ CREATE TABLE transactions (
   "transaction_amount" FLOAT
 );
 
-
--- Insert:
-INSERT INTO transactions
-  ("transaction_time", "transaction_amount")
 <details>
+-- Insert:
+<summary> INSERT INTO transactions
+  ("transaction_time", "transaction_amount") </summary>
 VALUES
   ('2021-01-16 00:05:54.000000', '25.05'),
   ('2021-01-07 20:53:04.000000', '124.00'),
